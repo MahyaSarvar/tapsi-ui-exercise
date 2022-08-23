@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "iranian";
+    font-weight: 400;
+    font-style: normal;
+    src: url("../assets/fonts/iranian-sans.eot") format("eot");
+    src: url('../assets/fonts/iranian-sans.otf') format('eot'),
+	    url('../assets/fonts/iranian-sans.woff') format('woff'),
+	    url('../assets/fonts/iranian-sans.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "yekan";
+    font-weight: 400;
+    font-style: normal;
+    src: url("../assets/fonts/Yekan.eot") format("eot");
+    src: url('../assets/fonts/Yekan.ttf') format('ttf'),
+	     url('../assets/fonts/Yekan.woff') format('woff');
+}
+
+body, button {
+    font-family: "yekan";
+}
